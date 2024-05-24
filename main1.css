@@ -1,0 +1,119 @@
+.pho{
+    background:cover;
+    width:940px;
+    height: 380px;
+    padding:20px 150px 0px 150px; 
+    border-radius:15px ;
+    position:absolute;
+    z-index:1;
+   
+
+}
+.circle{
+    background-color:lightcoral;
+    height :168px;
+    width:168px;
+    margin-left:190px ;
+    position:absolute;
+    z-index:2;
+    top:375px ;
+    border-radius: 100%;
+
+}
+.pho1{
+   
+    background:cover;
+   
+    position:absolute;
+    height :168px;
+    width:168px;
+    border:4px solid rgb(56, 118, 224);
+    border-radius: 100%;
+}
+.name{
+    height: 38px;
+    width:325px;
+    color:aqua;
+    margin-left:200px;
+    font-weight :700;
+    margin-top: 20px;
+    position: absolute;
+    z-index:3;
+    font-size:33px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.another{
+    
+    margin-left:200px;
+    margin-top:20px ;
+}
+.pho2{
+    height:80px;
+    position : absolute;
+    z-index:3;
+    margin-top :90px 
+}
+.together{
+  
+  display:flex;
+
+  
+}
+.button{
+    height:100px;
+    width:100px;
+    margin-left: 600px ;
+
+   padding-top:135px
+    
+}
+.like{
+
+    margin-left:20px ;
+  
+   padding-top:135px
+    
+}.search{
+
+    margin-left:20px ;
+  
+   padding-top:135px
+    
+}
+@media(max-width:600px){
+    .pho{
+        position:absolute;
+        z-index:1;
+        
+    }
+    .name {
+       color:black;
+       margin-top:250px;
+       margin-left:-20px
+}
+.circle{
+margin-left:550px ;
+height:250px;
+width:250px;
+
+position:absolute;
+z-index:2;
+top:300px;
+
+}
+.pho1{
+   
+height:250px;
+width:250px;
+
+}
+.pho2{
+    margin-top:320px ;
+    margin-left:-160PX ;
+}
+.together{
+    margin-top: 350px ;
+    margin-left:-630px 
+}
+
+}
